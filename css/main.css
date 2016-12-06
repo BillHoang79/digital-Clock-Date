@@ -1,14 +1,32 @@
-body{
-	color: #0000ff;
-	background-color: yellow;
+body {
+	background-color: #DA70d6;
+	font-family: 'Montserrat', sans-serif !important;
+	text-align: center !important;
 }
 
-.remove{
-	display: none;
+#border {
+	border: #fff;
 }
 
-body .li:hover {
-    visibility: visible;
+.comtainer-fluid {
+	background-color: #000000;
 }
 
+#clock, #date, .one {
+	color: #39FF14;
+	text-align: center;
+	font-size: 3em;
+	border: 3px solid #FF00FF;
+	border-radius: 15% 1%;
+	background-color: #000000; 
+}
 
+#foot { 
+	text-align: center;
+	font-size: 3em;
+	height: 100px;
+	width: 100%;
+	background-color: #000000;
+	border: 3px solid #FF00FF;
+	padding: 5px 5px;
+}
