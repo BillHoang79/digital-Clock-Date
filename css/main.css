@@ -30,4 +30,13 @@ body {
 	padding: 5px 5px;
 	text-align: center;
 	width: 100%;
+	-webkit-animation: footAnimation 5s;
 }
+
+@-webkit-keyframes footAnimation {
+	0% {-webkit-transform: scale(0,1);}
+	25% {-webkit-transform: scale(0,1);}
+	50% {-webkit-transform: scale(1,2);}
+	75% {-webkit-transform: scale(2,3);}
+/*	100% {-webkit-transform: scale(0,0);}
+*/}
