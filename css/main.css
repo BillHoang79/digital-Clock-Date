@@ -1,5 +1,6 @@
 body {
-	background-color: #DA70d6;
+	
+	background-image: url("../img/digital.jpg");
 	font-family: 'Montserrat', sans-serif !important;
 	text-align: center !important;
 }
@@ -12,19 +13,15 @@ body {
 	background-color: #000000;
 }
 
-#clock, #date, .one {
-	background-color: #000000; 
-	border: 3px solid #FF00FF;
+#clock, #date, .one { 
 	border-radius: 15% 1%;
-	color: #39FF14;
+	color: #fff;
 	font-size: 3em;
 	text-align: center;
 }
 
 #foot { 
-	background-color: #000000;
-	border: 3px solid #FF00FF;
-	color: #4B0082;
+	color: #fff;
 	font-size: 3em;
 	height: 100px;
 	padding: 5px 5px;
@@ -35,8 +32,8 @@ body {
 
 @-webkit-keyframes footAnimation {
 	0% {-webkit-transform: scale(0,1);}
-	25% {-webkit-transform: scale(0,1);}
-	50% {-webkit-transform: scale(1,2);}
-	75% {-webkit-transform: scale(2,3);}
+	25% {-webkit-transform: scale(2,3);}
+	50% {-webkit-transform: scale(3,4);}
 /*	100% {-webkit-transform: scale(0,0);}
+	75% {-webkit-transform: scale(4,5);}
 */}
